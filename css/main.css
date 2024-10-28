@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
-/* Set custom variables here */
 
+:root {
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-body-bg: #f6f3ed;
+  --bs-body-bg-rgb: 246, 243, 237;
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+}
 
+nav {
+  background-color: var(--bs-primary-color);
+}
 
-
+.btn {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+}
 
 .navbar-brand {
   color: #F6F3ED;
+}
+
+#logo {
+  max-width: 25%;
 }
 
 body {
@@ -30,6 +47,13 @@ h1, h2, h3 {
 #hero .d-flex {
   height: 800px;
 }
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-light); 
+  background-color: var(--bs-primary); 
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); 
+}
+
 
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
