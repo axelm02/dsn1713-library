@@ -12,11 +12,17 @@
 
 nav {
   background-color: var(--bs-primary-color);
+  /* Added pulse feature to button*/
+  animation: pulse;
+  animation-duration: 3s;
 }
 
 .btn {
   background-color: var(--bs-primary);
   color: var(--bs-light);
+  /* Added bounce feature to button*/
+  animation: bounce;
+  animation-duration: 3s;
 }
 
 .navbar-brand {
@@ -26,6 +32,7 @@ nav {
 #logo {
   max-width: 25%;
 }
+
 
 body {
   font-family: "Sarala", sans-serif;
@@ -42,6 +49,9 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* Added fadeIn feature to button*/
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 
 #hero .d-flex {
@@ -60,6 +70,8 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  animation: fadeIn;
+  animation-duration: 10s;
 }
 
 #cta .d-flex {
