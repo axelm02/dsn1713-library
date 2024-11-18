@@ -12,7 +12,7 @@
 
 nav {
   background-color: var(--bs-primary-color);
-  /* Added pulse feature to button*/
+  /* Added pulse feature to nav bar*/
   animation: pulse;
   animation-duration: 3s;
 }
@@ -49,7 +49,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* Added fadeIn feature to button*/
+  /* Added fadeIn feature to hero image*/
   animation: fadeIn;
   animation-duration: 3s;
 }
